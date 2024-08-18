@@ -1,0 +1,24 @@
+{
+  "name": "@tsci/ShiboSoftwareDev.tscircuit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "tsci dev",
+    "build": "tsup ./index.ts --sourcemap --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tscircuit": "^0.0.265",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@tscircuit/footprints": "^0.0.20"
+  }
+}
